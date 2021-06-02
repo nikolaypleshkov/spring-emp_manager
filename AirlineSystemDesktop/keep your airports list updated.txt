@@ -1,1 +1,0 @@
-Airports can change over time, keep it update. See here http://www.easypnr.com/blog/download-airport-iata-codes
