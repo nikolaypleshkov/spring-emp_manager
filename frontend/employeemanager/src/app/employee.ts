@@ -1,5 +1,6 @@
 export interface Employee {
     id: number;
+    name: string;
     number: string;
     email: string;
     job_title: string;
