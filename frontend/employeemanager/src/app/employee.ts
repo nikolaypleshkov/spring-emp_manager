@@ -7,4 +7,5 @@ export interface Employee {
     phone: string;
     imageURL: string;
     employeeID: string; 
+    nullable? : null;
 }
