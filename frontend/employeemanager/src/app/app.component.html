@@ -80,7 +80,7 @@
              <input type="email"  class="form-control" ngModel name="email" id="email" placeholder="Email" required>
           </div>
           <div class="form-group">
-             <label for="phone">Job title</label>
+             <label for="jobTitle">Job title</label>
              <input type="text"  class="form-control" ngModel name="job_title" id="jobTile" placeholder="Job title" required>
           </div>
           <div class="form-group">
@@ -88,8 +88,8 @@
              <input type="text"  class="form-control" ngModel name="phone" id="phone" placeholder="Phone" required>
           </div>
           <div class="form-group">
-             <label for="phone">Image URL</label>
-             <input type="text" class="form-control" id="imageUrl" ngModel name="image_url" placeholder="Image URL" required>
+             <label for="imageURL">Image URL</label>
+             <input type="text" class="form-control" id="imageURL" ngModel name="imageURL" placeholder="Image URL" required>
           </div>
           <div class="modal-footer">
              <button type="button" id="add-employee-form" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -133,7 +133,7 @@
               </div>
               <div class="form-group">
                  <label for="phone">Image URL</label>
-                 <input type="text"  name="image_url" class="form-control" id="imageUrl" ngModel="{{ editEmployee?.imageURL}}" placeholder="Image URL">
+                 <input type="text" class="form-control"  id="imageURL" name="imageURL" ngModel="{{ editEmployee?.imageURL}}" placeholder="Image URL">
               </div>
               <div class="modal-footer">
                  <button type="button" id="" data-dismiss="modal" class="btn btn-secondary">Close</button>
